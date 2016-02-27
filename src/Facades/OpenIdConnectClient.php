@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Libraries\Facades;
+namespace OpenIdConnectClient\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
