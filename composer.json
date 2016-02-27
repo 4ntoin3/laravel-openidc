@@ -1,0 +1,24 @@
+{
+    "name": "4ntoin3/laravel-openidc",
+    "description": "Laravel wrapper around OpenId Connect libraries.",
+    "keywords": ["oauth", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/contracts": "~5.0",
+        "illuminate/http": "~5.0",
+        "illuminate/support": "~5.0",
+        "jumbojett/openid-connect-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\OpenIdC\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jumbojett/OpenID-Connect-PHP"
+        }
+    ]
+}
