@@ -1,5 +1,5 @@
 {
-    "name": "4ntoin3/laravel-openidc",
+    "name": "authopenidconnect/laravel-openidc",
     "description": "Laravel wrapper around OpenId Connect libraries.",
     "keywords": ["oauth", "laravel"],
     "license": "MIT",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenIdConnectClient\\OpenIdC\\": "src/"
+            "AuthOpenIdConnect\\": "src/"
         }
     },
     "repositories": [

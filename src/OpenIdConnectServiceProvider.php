@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenIdConnectClient;
+namespace AuthOpenIdConnect;
 
 
 use Illuminate\Support\ServiceProvider;
