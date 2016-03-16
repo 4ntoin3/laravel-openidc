@@ -45,7 +45,7 @@ class OpenIdConnectServiceProvider extends ServiceProvider
             $url = $app['config']['openidc.authServerUrl'];
             $clientId = $app['config']['openidc.clientId'];
             $clientSecret = $app['config']['openidc.clientSecret'];
-            return new \OpenIDConnectClient($url, $clientId, $clientSecret);
+            return new \OpenIDConnectClient($url, $clientId, $clientSecret, new OpenIDSessionStorageLaravel());
         });
     }
 
